@@ -15,7 +15,7 @@ function App() {
   const [image, setRandomImage] = useState(wallpaperRandom)
 
   const wallpapers = {
-    backgroundImage: `url(../public/fondo${image}.png)`
+    backgroundImage: `url(/fondo${image}.png)`
   }
 
   return (
